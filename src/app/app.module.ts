@@ -9,6 +9,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AdminModule } from './admin/admin.module';
 import { ResetpasswordComponent } from './resetpassword/resetpassword.component';
 import { HomeComponent } from './home/home.component';
+import { CategoryComponent } from './category/category.component';
 
 
 
@@ -19,6 +20,7 @@ import { HomeComponent } from './home/home.component';
     RegisterComponent,
     ResetpasswordComponent,
     HomeComponent,
+    CategoryComponent,
   
    
   ],
