@@ -21,9 +21,7 @@ mc.connect(dburl,{useNewUrlParser:true,useUnifiedTopology:true})
        const userCollectionObj=databaseObj.collection("usercollection")
        
        const productCollectionObj=databaseObj.collection("productcollection")
-       
-       
-       
+
        app.set("userCollectionObj",userCollectionObj)
        app.set("productCollectionObj",productCollectionObj)
          console.log("Db server started")
